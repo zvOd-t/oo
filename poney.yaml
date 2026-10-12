@@ -1,0 +1,13 @@
+####By SOC
+
+swagger: '2.0'
+info:
+  version: "0.0.1"
+  title: XSS Vulnerable
+  description: <img src="https://images.radio-canada.ca/q_auto,w_635/v1/essentiels-info/9x16/trump-meme-habit-tacos.jpg">
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
